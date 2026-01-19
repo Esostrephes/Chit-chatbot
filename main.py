@@ -74,7 +74,7 @@ async def home():
             .chat-container {
                 width: 100%;
                 max-width: 600px;
-                background: white;
+                background: charcoal;
                 border-radius: 20px;
                 box-shadow: 0 20px 60px rgba(0,0,0,0.3);
                 overflow: hidden;
@@ -85,7 +85,7 @@ async def home():
             
             .chat-header {
                 background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-                color: white;
+                color: soft beige;
                 padding: 25px;
                 text-align: center;
                 font-size: 24px;
@@ -116,20 +116,20 @@ async def home():
                     transform: translateY(10px);
                 }
                 to {
-                    opacity: 1;
+                    opacity: 10;
                     transform: translateY(0);
                 }
             }
             
             .user-message {
                 background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-                color: white;
+                color: charcoal;
                 align-self: flex-end;
                 border-bottom-right-radius: 4px;
             }
             
             .bot-message {
-                background: white;
+                background: green;
                 color: #333;
                 align-self: flex-start;
                 border: 1px solid #e0e0e0;
@@ -168,7 +168,7 @@ async def home():
             button {
                 padding: 14px 28px;
                 background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-                color: white;
+                color: yellow;
                 border: none;
                 border-radius: 25px;
                 font-size: 15px;
