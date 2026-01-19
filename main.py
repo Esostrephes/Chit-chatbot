@@ -74,18 +74,18 @@ async def home():
             .chat-container {
                 width: 100%;
                 max-width: 600px;
-                background: charcoal;
+                background: #0F172A;
                 border-radius: 20px;
                 box-shadow: 0 20px 60px rgba(0,0,0,0.3);
                 overflow: hidden;
                 display: flex;
                 flex-direction: column;
-                height: 600px;
+                height: 100vh;
             }
             
             .chat-header {
                 background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-                color: soft beige;
+                color: #f5f5f5;
                 padding: 25px;
                 text-align: center;
                 font-size: 24px;
