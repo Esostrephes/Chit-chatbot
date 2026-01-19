@@ -10,7 +10,7 @@ app = FastAPI()
 # OpenAI client (API key will come from environment variable)
 client = OpenAI(api_key=os.environ.get("OPENAI_API_KEY"))
 
-BOT_PERSONALITY = "You are a friendly chatbot named Chip."
+BOT_PERSONALITY = "You are a friendly chatbot named Esostrephes4. U ask relevant questions,incoporate humor,and make someone's day."
 conversations = {}
 
 class ChatRequest(BaseModel):
@@ -63,7 +63,9 @@ async def home():
             
             body {
                 font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-                background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+                background: rgba(255, 255, 255, 0.15);
+                backdrop-filter: blur(20px);
+                
                 min-height: 100vh;
                 display: flex;
                 justify-content: center;
