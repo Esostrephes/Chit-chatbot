@@ -52,7 +52,7 @@ async def home():
     <!DOCTYPE html>
     <html>
     <head>
-        <title>Chip Chatbot</title>
+        <title>Esostrephes4 chatbot</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <style>
             * {
@@ -225,7 +225,7 @@ async def home():
     <body>
         <div class="chat-container">
             <div class="chat-header">
-                Chat with Chip 🤖
+                Chat with Esostrephes4 chatbot 🤖
             </div>
             <div id="chat"></div>
             <div class="input-container">
@@ -249,7 +249,7 @@ async def home():
                 const typing = document.createElement("div");
                 typing.className = "typing";
                 typing.id = "typing-indicator";
-                typing.textContent = "Chip is typing...";
+                typing.textContent = "Esostrephes4 is typing...";
                 chat.appendChild(typing);
                 chat.scrollTop = chat.scrollHeight;
             }
@@ -285,7 +285,7 @@ async def home():
             }
             
             // Welcome message
-            addMessage("Hey! I'm Chip, your friendly chatbot. How can I help you today?", "bot");
+            addMessage("Hey! I'm Esostrephes4, your friendly chatbot. How can I help you today?", "bot");
         </script>
     </body>
     </html>
